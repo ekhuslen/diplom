@@ -1,0 +1,10 @@
+--0024070400
+f_create_table('athelete')~~
+f_create_clmn('athelete','id','varchar(50) primary key')~~
+f_create_clmn('athelete','name','varchar(50)')~~
+
+f_create_clmn('athelete','fname','varchar(20) unique not null')~~
+f_create_clmn('athelete','age','varchar(200)')~~
+f_create_clmn('athelete','gender','varchar(200)')~~
+f_create_clmn('athelete','club','varchar(200)')~~
+f_create_clmn('athelete','scores','varchar(3000)')~~
